@@ -2,6 +2,7 @@
 Auto-selects the proper subform when clicking the Search button
 
 INSTALLATION: 
+
 0) Download this project to disk
 1) In Chrome, go to chrome://extensions
 2) Click "Load unpacked" in the top left corner
