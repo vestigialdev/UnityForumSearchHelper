@@ -12,8 +12,8 @@ Auto-selects the proper subform when clicking the Search button
 
 <h3>How it works</h3>
 
-It runs two .js scripts, one on the forum page, and one on the search page. 
+It runs two .js scripts, one on the forum and thread pages, and one on the search page. 
 The forum script modifies the "Search" link to include the forum ID as a GET parameter in the query string.
-The search page script looks for the forum id in the query string, and sets the subforum "select" element value. 
+The search page script looks for the forum id in the query string, and uses it to set the subforum "select" element value. 
 
 I'm not a web developer, so feel free to make improvements like changing the search link to a search box that sends the query foreword

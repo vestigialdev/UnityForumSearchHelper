@@ -1,28 +1,28 @@
 {
   "manifest_version": 2,
   "name": "UnityForumSearchHelper",
-  "version": "0.2",
-  "options_ui": {
-    "page": "options/options.html",
-    "open_in_tab": true
-  },
-  
+  "version": "0.2.1",
   "permissions": [
-  	  "https://forum.unity.com/threads/*",
-	  "https://forum.unity.com/forums/*",
-	  "https://forum.unity.com/search/*",
-	  "storage"
-	],
-
+    "https://forum.unity.com/threads/*",
+    "https://forum.unity.com/forums/*",
+    "https://forum.unity.com/search/*"
+  ],
   "content_scripts": [
     {
-	"matches": [
+      "matches": [
         "https://forum.unity.com/forums/*",
-		"https://forum.unity.com/threads/*",
-		"https://forum.unity.com/search/*"
+        "https://forum.unity.com/threads/*"
       ],
       "js": [
-        "forum.unity.com.js"
+        "InjectForumId.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://forum.unity.com/search/*"
+      ],
+      "js": [
+        "SearchWithForumId.js"
       ]
     }
   ]
