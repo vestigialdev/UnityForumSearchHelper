@@ -3,12 +3,12 @@ Auto-selects the proper subform when clicking the Search button
 
 <h3>INSTALLATION</h3>
 
-0) Download this project to disk
-1) In Chrome, go to chrome://extensions
-2) Click "Load unpacked" in the top left corner
-3) Navigate to the UnityForumSearchHelper directory
-4) Click Select Folder 
-5) UnityForumSearchHelper should be installed, check the console for warnings if it doesn't work when searching the Unity forums
+* Download this project to disk
+* In Chrome, go to chrome://extensions
+* Click "Load unpacked" in the top left corner
+* Navigate to the downloaded UnityForumSearchHelper directory
+* Click Select Folder 
+* UnityForumSearchHelper should be installed, check the console for warnings if it doesn't work when searching the Unity forums
 
 <h3>How it works</h3>
 
